@@ -1,0 +1,12 @@
+# Core dependencies for Video Subtitle Pipeline
+
+# Speech recognition and translation
+openai-whisper>=20231117
+argostranslate>=1.9.0
+
+# Utilities
+tqdm>=4.66.1
+yt-dlp>=2023.10.7
+
+# (optional) Used by Whisper for better performance
+ffmpeg-python>=0.2.0
